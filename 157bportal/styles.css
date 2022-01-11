@@ -3,7 +3,6 @@
 }
 
 body {
-    /* background-color: #333; */
     background-image: linear-gradient(to top, #F2C0FF,  #DAE4FE, #ECD37C , #FEC3F1); 
     color: rgb(235, 235, 235);
     transition: all 2s;
@@ -35,15 +34,8 @@ header {
     width: 1100px;
     height: 250px;
     margin: auto;
-    /* background-color: rgb(235, 235, 235); */
     overflow: hidden;
 }
-
-/*  #banner.switch {
-     background-color: #333; 
-    color: rgb(235, 235, 235);
-    transition: all 2s;
-}  */
 
 main {
     display: flex;
@@ -56,7 +48,6 @@ main section {
     border: 3.5px rgb(235, 235, 235) solid;
     margin: 0 .25em;
     padding: 1em;
-
 }
 
 a {
@@ -93,7 +84,6 @@ section.switch a {
     color: white;
 }
 
-
 section.switch a:hover {
     background-color: #333;
     color: rgb(235, 235, 235);
@@ -116,8 +106,7 @@ button:hover {
     cursor: pointer;
 }
 
-
-  #bannerOne, #bannerTwo, #bannerThree, #bannerFour{
+#bannerOne, #bannerTwo, #bannerThree, #bannerFour{
     color: black; 
     width: 25%; 
     display: flex; 
@@ -131,8 +120,6 @@ button:hover {
     font-size: 35px;
     text-transform: uppercase; 
 }
-
-
 
 #bannerTwo{
     background-image: linear-gradient(to top, white, #9B2EB7);
@@ -202,25 +189,6 @@ button:hover {
     font-size: 45px; 
 }
 
-h1,h2{
-    text-align: center; 
-    color: black; 
-}
-h1.switch, h2.switch{
-    color: white; 
-}
-
-
-h1{
-    font-size: 16px; 
-    margin-bottom: 3px; 
-}
-
-h2{
-    font-size: 14px; 
-    margin-top: 0;
-    margin-bottom: 35px;  
-}
 
 /*used w3 schools for modal*/
 .modal {
@@ -265,18 +233,30 @@ h2{
       width: 32%; 
   }
 
-h1,h2,h4,li,a,button{
+h4,li,a,button{
     font-family: "DidactGothic", sans-serif;
     font-size: 14px; 
     color: black; 
   }
 
-  /* #myBtn.switch, #buttonSwitch.switch{
-      color: white; 
-  } */
+  h1,h2{
+    font-family: "DidactGothic", sans-serif;
+    font-weight:200; 
+    color: black; 
+    padding-left: 50px; 
+  }
+
+  h1{
+      margin-top: 0; 
+      font-weight: 600; 
+  }
+
 
   h1.switch, h2.switch{
       color: white; 
   }
 
+  #modalh2{
+      padding-left: 0; 
+  }
   
