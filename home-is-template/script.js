@@ -9,13 +9,16 @@
 
     button.addEventListener('click', function() {
         if (mode === 'dark') {
+           
             body.className = 'switch';
             banner.className = 'switch';
             button.className = 'switch';
             for (const section of sections) {
                 section.className = 'switch';
             }
+            console.log(banner.className); 
             mode = 'light';
+            
         } else {
             body.removeAttribute('class');
             banner.removeAttribute('class');

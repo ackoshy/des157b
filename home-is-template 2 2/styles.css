@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #333; */
+    background-image: linear-gradient(to top, #F2C0FF,  #DAE4FE, #ECD37C , #FEC3F1); 
+    color: rgb(235, 235, 235);
+    transition: all 2s;
+}
+
+body.switch {
+    background-image: linear-gradient(to top, black, white); 
+    color: #333;
+    transition: all 2s; 
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    /* make sure the columns don't get too small and text stays readable */
+    min-width: 900px;
+    margin: 1em auto;
+    padding-top: 2em;
+}
+
+header {
+    margin: 0 auto 2em auto;
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    margin: auto;
+    /* background-color: rgb(235, 235, 235); */
+    overflow: hidden;
+}
+
+/*  #banner.switch {
+     background-color: #333; 
+    color: rgb(235, 235, 235);
+    transition: all 2s;
+}  */
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+}
+
+main section {
+    width: 25%;
+    border: 3.5px rgb(235, 235, 235) solid;
+    margin: 0 .25em;
+    padding: 1em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section li {
+    padding-left: 1.2em;
+}
+
+section a {
+    line-height: 1.1em;
+    display: inline-block;
+    padding: .5em;
+}
+
+section a:hover{
+    background-color: #ffe6ee; 
+    opacity: 50%; 
+}
+
+section.switch h4{
+    color: white; 
+}
+
+section.switch a {
+    color: white;
+}
+
+
+section.switch a:hover {
+    background-color: #333;
+    color: rgb(235, 235, 235);
+}
+
+button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px;
+    background-color: transparent; 
+    color: #333;
+    border: 2px solid ;
+    border-color: white; 
+}
+
+button:hover {
+    background-color: white;
+    opacity: 50%; 
+    cursor: pointer;
+}
+
+
+  #bannerOne, #bannerTwo, #bannerThree, #bannerFour{
+    color: black; 
+    width: 25%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+ 
+ #bannerOne{
+    background-image: linear-gradient(to top, white, #ECD37C); 
+    font-family: "Montserrat", sans-serif; 
+    font-size: 35px;
+    text-transform: uppercase; 
+}
+
+
+
+#bannerTwo{
+    background-image: linear-gradient(to top, white, #9B2EB7);
+    font-size: 35px; 
+     font-family: "Sacramento", sans-serif; 
+}
+
+#bannerThree{
+    background-image: linear-gradient(to top, white, #8BA7ED);
+    font-size: 50px; 
+     font-family: "NanumPen", sans-serif;    
+}
+
+#bannerFour{
+    background-image: linear-gradient(to top,white, #FFC1EE);
+     font-family: "Niconne", sans-serif; 
+    font-size: 35px; 
+} 
+
+#bannerOne.switch, #bannerTwo.switch, #bannerThree.switch, #bannerFour.switch{
+    color: white; 
+    background-image: none; 
+}
+
+#bannerOne.switch{
+    background-color: #790808; 
+}  
+
+#bannerTwo.switch{
+    background-color: #3E3A3A
+}
+
+#bannerThree.switch{
+    background-color: #BBB9B9; 
+}
+
+#bannerFour.switch{
+    background-color: #8D4605; 
+}
+
+#replaceOne.switch span, #replaceTwo.switch span, #replaceThree.switch span, #replaceFour.switch span{ 
+    display: none; 
+
+}
+
+#replaceOne.switch:after{
+    content: "RED"; 
+    font-family: "Mukta", sans-serif;
+    font-size: 50px; 
+    
+}
+#replaceTwo.switch:after{
+    content: "reputation"; 
+    font-family: "MedievalSharp", sans-serif;
+    font-size: 35px; 
+}
+
+#replaceThree.switch:after{
+    content: "folklore"; 
+    font-family: "Niconne", sans-serif;
+    font-size: 45px; 
+}
+
+#replaceFour.switch:after{
+    content:"evermore"; 
+    font-family: "Niconne", sans-serif;
+    font-size: 45px; 
+}
+
+h1,h2{
+    text-align: center; 
+    color: black; 
+}
+h1.switch, h2.switch{
+    color: white; 
+}
+
+
+h1{
+    font-size: 16px; 
+    margin-bottom: 3px; 
+}
+
+h2{
+    font-size: 14px; 
+    margin-top: 0;
+    margin-bottom: 35px;  
+}
+
+/*used w3 schools for modal*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-image: linear-gradient(to top, grey, white, lightgrey,pink); 
+    margin: auto;
+    padding: 20px;
+    color: black;
+    width: 60%; 
+    font-size: 16px; 
+  }
+  
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  img{
+      width: 32%; 
+  }
+
+h1,h2,h4,li,a,button{
+    font-family: "DidactGothic", sans-serif;
+    font-size: 14px; 
+    color: black; 
+  }
+
+  /* #myBtn.switch, #buttonSwitch.switch{
+      color: white; 
+  } */
+
+  h1.switch, h2.switch{
+      color: white; 
+  }
+
+  

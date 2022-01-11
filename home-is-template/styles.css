@@ -3,7 +3,13 @@
 }
 
 body {
-    background-color: #333;
+     background-image: linear-gradient(to top, #F2C0FF,  #DAE4FE, #ECD37C , #FEC3F1); 
+    /* background: 
+        linear-gradient(217deg, #F2C0FF),
+        linear-gradient(127deg, #DAE4FE),
+        linear-gradient(336deg, #ECD37C),
+        linear-gradient(50deg #FEC3F1);  */
+
     color: rgb(235, 235, 235);
     transition: all 2s;
 }
@@ -51,7 +57,7 @@ main {
 
 main section {
     width: 25%;
-    border: 1px rgb(235, 235, 235) dashed;
+    border: 3px rgb(235, 235, 235) solid;
     margin: 0 .25em;
     padding: 1em;
 }
@@ -75,13 +81,13 @@ section a {
     line-height: 1.1em;
     display: inline-block;
     padding: .5em;
-    color: orange;
+    color: black; 
 }
 
-section a:hover {
+/* section a:hover {
     background-color: orange;
     color: #333;
-}
+} */
 
 section.switch a {
     color: #333;
@@ -116,3 +122,68 @@ button.switch:hover {
     background-color: #333;
     color: rgb(235, 235, 235)
 }
+
+
+h3{
+    color: black;
+}
+
+#sectionOne, #sectionTwo, #sectionThree, #sectionFour{
+    color: black; 
+    width: 25%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+#sectionOne{
+    background-image: linear-gradient(to top, white, #ECD37C); 
+     font-family: "Montserrat", sans-serif; 
+    font-size: 35px;
+    text-transform: uppercase; 
+}
+
+#sectionTwo{
+    background-image: linear-gradient(to top, white, #9B2EB7);
+    font-size: 35px; 
+     font-family: "Sacramento", sans-serif; 
+}
+
+#sectionThree{
+    background-image: linear-gradient(to top, white, #8BA7ED);
+    font-size: 50px; 
+     font-family: "NanumPen", sans-serif;    
+}
+
+#sectionFour{
+    background-image: linear-gradient(to top,white, #FFC1EE);
+     font-family: "Niconne", sans-serif; 
+    font-size: 35px; 
+}
+
+h1{
+    font-size: 24px; 
+    margin-bottom: 0; 
+}
+
+h2{
+    margin-top: 0; 
+    font-size: 14px; 
+    margin-bottom: 15px; 
+}
+
+h1,h2{
+    text-align: center; 
+    color: black; 
+}
+
+
+/* #projects{
+    background-color: #ECD37C; 
+    opacity: 50%;
+}
+
+#research{
+    background-color: #9B2EB7; 
+    opacity: 20%; 
+} */
