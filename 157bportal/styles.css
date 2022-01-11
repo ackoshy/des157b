@@ -233,7 +233,7 @@ button:hover {
       width: 32%; 
   }
 
-h4,li,a,button{
+h4,li,a,button, p{
     font-family: "DidactGothic", sans-serif;
     font-size: 14px; 
     color: black; 
