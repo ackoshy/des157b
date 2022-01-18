@@ -45,10 +45,10 @@ body {
    font-size: 36px; 
    color: antiquewhite; 
    transform: translate(-50%, -50%); 
-   animation: bird 2s infinite alternate ease-in-out; 
+   /* animation: bird 2s infinite alternate ease-in-out;  */
 }
 
-@keyframes bird{
+/* @keyframes bird{
    0% {
        opacity: .5; 
        transform: scale(1); 
@@ -60,4 +60,4 @@ body {
        opacity: .5; 
        transform: scale(1.5); 
    }
-}
+} */
