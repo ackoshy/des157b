@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- used origianl document for class and made edits to the code -->
-<!-- used Taylor Swift 1989 for music:https://www.youtube.com/watch?v=gHX5D3_ZrGo  -->
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio One</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-</head>
-
-<body>
-    <video id="myVideo" controls muted loop autoplay playsinline>
-        <source src="media/157bVideo.mp4" type="video/webm"> 
-        <source src="media/157bVideo.mp4" type="video/mp4">
-    </video>
-    
-    <i class="fas fa-expand"></i>
-    <i class="fa-solid fa-dove"></i>
-
-    <section id="lyrics">
-        <p id="line1" class="hidden">Clear blue waters<br>High tide<br>Came and brought you in</p>
-        <p id="line2" class="hidden">And I could go on and on, on and on, and I will</p>
-        <p id="line3" class="hidden">Skies grew darker<br>Currents <br>swept you out again</p>
-        <p id="line4" class="hidden">And you were just gone and gone, gone and gone</p>
-        <p id="line5">
-            Source: Music - Taylor Swift, 1989
-        </p>
-        
-    </section>
-
-
-    <script>
-        (function() {
+(function() {
             'use strict';
             console.log('reading');
             const myVideo = document.querySelector('#myVideo');
@@ -78,7 +42,4 @@
                 }
             });
         })();
-    </script>
-</body>
 
-</html>
