@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio One</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+</head>
+
+<body>
+    <video id="myVideo" controls muted loop autoplay playsinline>
+        <source src="media/157bVideo.mp4" type="video/webm"> 
+        <source src="media/157bVideo.mp4" type="video/mp4">
+    </video>
+
+    <i class="fas fa-expand"></i>
+    <i class="fa-solid fa-dove"></i>
+
+    <section id="lyrics">
+        <p id="line1" class="hidden">Clear blue waters<br>High tide<br>Came and brought you in</p>
+        <p id="line2" class="hidden">And I could go on and on, on and on, and I will</p>
+        <p id="line3" class="hidden">Skies grew darker<br>Currents <br>swept you out again</p>
+        <p id="line4" class="hidden">And you were just gone and gone, gone and gone</p>
+    </section>
+
+
+    <script>
+        (function() {
+            'use strict';
+            console.log('reading');
+            const myVideo = document.querySelector('#myVideo');
+            const fs = document.querySelector('.fa-expand');
+            const line1 = document.querySelector('#line1');
+            const line2 = document.querySelector('#line2');
+            const line3 = document.querySelector('#line3');
+            const line4 = document.querySelector('#line4');
+             const lyrics = {
+            start: [0, 11,16,24],
+            stop: [9,15,23,31],
+            line: [line1, line2, line3, line4]
+        }
+            const loading = document.querySelector('.fa-dove'); 
+            const intervalID = setInterval(checkTime, 1000);
+
+            function checkTime() {
+                for (let i = 0; i < lyrics.start.length; i++) {
+                    if (lyrics.start[i] < myVideo.currentTime && myVideo.currentTime < lyrics.stop[i]) {
+                        lyrics.line[i].className = "showing";
+                    } else {
+                        lyrics.line[i].className = "hidden";
+                    }
+                }
+            }
+
+            myVideo.addEventListener('playing', function() {
+                loading.style.display = 'none'; 
+            })
+
+            fs.addEventListener('click', function() {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>

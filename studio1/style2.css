@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: antiquewhite;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#myVideo:hover{
+    opacity: 90%; 
+} 
+
+#line1, #line2, #line3, #line4{
+    top: 10%; 
+    left: 10%; 
+    font-family: "Lobster", sans-serif;
+} 
+
+#lyrics p{
+    position: absolute;
+    padding: 1em;
+    font-size: 2em;
+    transition: all 2s;
+    color: white;
+
+}
+
+
+
+.hidden {
+    opacity: 0;
+}
+
+.showing {
+    opacity: 1;
+}
+
+.fa-dove{
+   position: absolute; 
+   top: 50%; 
+   left: 50%; 
+   font-size: 36px; 
+   color: antiquewhite; 
+   transform: translate(-50%, -50%); 
+   animation: bird 2s infinite alternate ease-in-out; 
+}
+
+@keyframes bird{
+   0% {
+       opacity: .5; 
+       transform: scale(1); 
+   }
+   50%{
+       opacity: 1; 
+   }
+   100%{
+       opacity: .5; 
+       transform: scale(1.5); 
+   }
+}
