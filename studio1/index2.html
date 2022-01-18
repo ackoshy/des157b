@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- used origianl document for class and made edits to the code -->
+<!-- used Taylor Swift 1989 for music:https://www.youtube.com/watch?v=gHX5D3_ZrGo  -->
+
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +19,7 @@
         <source src="media/157bVideo.mp4" type="video/webm"> 
         <source src="media/157bVideo.mp4" type="video/mp4">
     </video>
-
+    
     <i class="fas fa-expand"></i>
     <i class="fa-solid fa-dove"></i>
 
@@ -25,6 +28,10 @@
         <p id="line2" class="hidden">And I could go on and on, on and on, and I will</p>
         <p id="line3" class="hidden">Skies grew darker<br>Currents <br>swept you out again</p>
         <p id="line4" class="hidden">And you were just gone and gone, gone and gone</p>
+        <p id="line5">
+            Source: Music - Taylor Swift, 1989
+        </p>
+        
     </section>
 
 
@@ -38,10 +45,13 @@
             const line2 = document.querySelector('#line2');
             const line3 = document.querySelector('#line3');
             const line4 = document.querySelector('#line4');
-             const lyrics = {
-            start: [0, 11,16,24],
-            stop: [9,15,23,31],
-            line: [line1, line2, line3, line4]
+            const line5 = document.querySelector('#line5');
+            
+
+            const lyrics = {
+            start: [0, 11,16,21, 26],
+            stop: [9,15,20,25, 30],
+            line: [line1, line2, line3, line4, line5]
         }
             const loading = document.querySelector('.fa-dove'); 
             const intervalID = setInterval(checkTime, 1000);
