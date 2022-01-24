@@ -1,0 +1,111 @@
+#spotifyLogo{
+    width: 7em; 
+    position: absolute; 
+    top: 0.7em; 
+    right: 2em;
+}
+body{
+    background-color: black; 
+}
+h1,h2,h3,h4,h5,h6,p{
+    color:white; 
+    font-family: "Nunito Sans"; 
+}
+
+h1,h2{
+    text-align: center; 
+}
+h1{
+    font-size: 54; 
+    margin-bottom: 0.2em; 
+}
+h2{
+    font-size: 30; 
+    margin-top: 0; 
+}
+h1 span, h2 span{
+    color: #1B8A47;
+    font-size: 54; 
+}
+#main{
+    display: flex; 
+    padding-bottom: 4em; 
+    justify-content: center;
+    margin-top: 3em; 
+}
+#left{
+    margin-right: 5em; 
+    display: flex; 
+    flex-direction: column; 
+}
+#right{
+    margin-left: 5em; 
+}
+h3, h5{
+    font-size: 18px;  
+    margin-bottom: 0.5em; 
+    margin-top: 0.5em; 
+}
+h3 span, h5{
+    opacity: 50%; 
+}
+h4{
+    text-transform: uppercase; 
+    font-size: 14px; 
+    opacity: 50%; 
+    margin-bottom: 0; 
+}
+h5{
+   font-size: 16px; 
+   opacity: 50%;  
+   margin-top: 0; 
+   margin-bottom: 2em; 
+}
+#top{
+    margin-bottom: 3em; 
+}
+#albumBottom{
+    width: 4em; 
+}
+#bottom{
+    background-color: #121212; 
+    padding: 1.5em; 
+    padding-top: 3em;
+    display: flex; 
+}
+#bottom h3, h5{
+    font-size: 14px;
+}
+#bottom-left{
+    margin-left: 5em; 
+}
+input[type="range"] {
+    width:50em;
+}
+.slidecontainer{
+    margin-top: 4em; 
+    margin-left: 8em; 
+}
+.fa-home, .fa-search, .fa-book, .fa-step-forward{
+    color: white; 
+    font-size: 1.5em; 
+    margin-left: 2em; 
+    margin-top: 1em; 
+}
+
+.fa-step-forward{
+    margin-left:3em; 
+}
+.btn{
+    background-color: #121212; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+        font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+
+}
+
+
+
+
