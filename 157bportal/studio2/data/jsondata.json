@@ -1,16 +1,81 @@
 [
-        {
-        "number": "#10",
-        "title": "champagne problems",
+    {
+        "number": "#10", 
+        "title": "champagne problems", 
         "artist": "Taylor Swift", 
-        "album": "evermore",
+        "album": "evermore", 
         "src": "images/evermorec.png"
-        }, 
+    }, 
+
         {
         "number": "#9", 
         "title": "Heartbreak Anniversary", 
         "artist": "Giveon", 
-        "album": "TAKE TIME"
+        "album": "TAKE TIME", 
+        "src": "images/giveonc.jpeg"
+    }, 
+    {
+        "number": "#8", 
+        "title": "Prisoner (feat. Dua Lipa)", 
+        "artist": "Miley Cyrus", 
+        "album": "Plastic Hearts", 
+        "src": "images/prisonerc.png"     
+    },
+    {
+        "number": "#7", 
+        "title": "Sweatpants", 
+        "artist": "Childish Gambino", 
+        "album": "Because the Internet", 
+        "src": "images/gambinoc.jpg"     
+    },
+
+    {
+        "number": "#6", 
+        "title": "Strawberries & Cigarettes", 
+        "artist": "Troye Sivane", 
+        "album": "Strawberries & Cigarettes", 
+        "src": "images/troyec.png"     
+    }, 
+    {
+        "number": "#5", 
+        "title": "Anyone", 
+        "artist": "Justin Bieber", 
+        "album": "Justice", 
+        "src": "images/jb.png"     
+    }, 
+    {
+        "number": "#4", 
+        "title": "Up From a Dream", 
+        "artist": "HAIM", 
+        "album": "Women in Music Pt.III", 
+        "src": "images/haimc.jpg"     
+    }, 
+    {
+        "number": "#3", 
+        "title": "Solar Power", 
+        "artist": "Lorde", 
+        "album": "Solar Power", 
+        "src": "images/lordec.png"     
+    }, 
+    {
+        "number": "#2", 
+        "title": "One More Weekend", 
+        "artist": "Maude Lautor", 
+        "album": "Strangers Forever EP", 
+        "src": "images/maudec.jpg"     
+    },
+    {
+        "number": "#1", 
+        "title": "Remember That Night? ", 
+        "artist": "Sara Keys", 
+        "album": "Struck By Lightening EP", 
+        "src": "images/sarakeysc.jpeg"     
     }
+
+
+
+
+
+
 
 ]
