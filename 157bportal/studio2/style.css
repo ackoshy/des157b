@@ -79,9 +79,17 @@ h5{
 #bottom-left{
     margin-left: 5em; 
 }
-input[type="range"] {
-    width:50em;
+input{
+    width:50em; 
+    height:72px; 
+
+    -webkit-appearance: none;
+    background-color: transparent; 
+    color: white; 
 }
+
+
+
 
 .slidecontainer{
     position: absolute; 

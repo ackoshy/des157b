@@ -45,7 +45,6 @@ async function getData(){
     document.querySelector("#bottomAlbum").innerHTML = outputbottomAlbum(data); 
     document.querySelector("#songNumber").innerHTML = outputNumber(data); 
     document.querySelector("#bottomArtist").innerHTML = outputbottomArtist(data); 
-    //document.getElementById("albumCover").src="images/spotifyc.png";
     switchImage(data); 
     /* key +=1;  */
 }

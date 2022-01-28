@@ -1,0 +1,42 @@
+[{
+      "fname": "Bill",
+      "lname": "Mead",
+      "email": "bill@gmail.com",
+      "facebook": "https://www.facebook.com/billmead",
+      "twitter": "https://twitter.com/billmead",
+      "instagram": "https://www.instagram.com/billmead/",
+      "linkedin": "https://www.linkedin.com/in/billmead/"
+    }, {
+      "fname": "Steve",
+      "lname": "Mann",
+      "email": "steve@mann.com",
+      "facebook": "https://www.facebook.com/mann",
+      "twitter": "https://twitter.com/mann",
+      "instagram": "https://www.instagram.com/flommus/",
+      "linkedin": "https://www.linkedin.com/in/mann/"
+    }, {
+      "fname": "Glenda",
+      "lname": "Drew",
+      "email": "hello@glendadrew.com",
+      "facebook": "https://www.facebook.com/glenda",
+      "twitter": "https://twitter.com",
+      "instagram": "https://www.instagram.com/glenda/",
+      "linkedin": "https://www.linkedin.com/in/glenda/"
+    }, {
+      "fname": "Xavier",
+      "lname": "Selph",
+      "email": "x@selph.com",
+      "facebook": "https://www.facebook.com/xavierselph",
+      "twitter": "https://twitter.com/xselph",
+      "instagram": "https://www.instagram.com/xselph/",
+      "linkedin": "https://www.linkedin.com/in/xselph/"
+    }, {
+      "fname": "Deborah",
+      "lname": "Mullen",
+      "email": "deb@gmail.com",
+      "facebook": "https://www.facebook.com/deborah.mullen",
+      "twitter": "https://twitter.com/debsmooth",
+      "instagram": "https://www.instagram.com/debmullen/",
+      "linkedin": "https://www.linkedin.com/in/debmullen/"
+    }]
+  
