@@ -82,14 +82,9 @@ h5{
 input{
     width:50em; 
     height:72px; 
-
-    -webkit-appearance: none;
     background-color: transparent; 
     color: white; 
 }
-
-
-
 
 .slidecontainer{
     position: absolute; 
