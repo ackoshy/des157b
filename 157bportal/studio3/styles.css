@@ -1,0 +1,19 @@
+form{
+    margin: auto; 
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    text-align: center; 
+    color: #db245e; 
+}
+.form-center{
+    display: flex; 
+    justify-content: center; 
+}
+input[type="text"]{
+    width: 50em; 
+    height: 40em; 
+}
