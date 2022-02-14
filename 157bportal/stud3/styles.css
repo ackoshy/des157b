@@ -1,0 +1,20 @@
+body{
+
+    overflow: hidden; 
+    background-image: url(images/b.jpeg); 
+    -webkit-background-size: cover; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+#album{
+    margin: 5% auto; 
+    width: 600px; 
+    height: 500px;
+}
+
+#album .turn-page{
+    -webkit-background-size:100% 100%; 
+    background-size:100% 100%; 
+
+}
