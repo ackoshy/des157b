@@ -1,0 +1,23 @@
+body{
+    font-family: "Montserrat"; 
+    text-align: center; 
+    background-color: #E98074;
+    opacity: 50%;
+}
+
+h1{
+    font-weight: 800; 
+}
+
+section{
+    width: 50%;
+    margin: auto; 
+    border: 2px solid black;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border-radius: 25px; 
+}
+
+li,h2{
+    text-align: left; 
+}
