@@ -1,0 +1,52 @@
+#header{
+    background-color: #690B5F; 
+}
+
+body{
+    font-family: "Playfair Display";
+    color: white; 
+    margin: 0; 
+}
+h1,h2,h3,h4 {
+    margin: 0; 
+    margin-bottom: 1em; 
+}
+
+h1{
+    
+    font-size: 56px; 
+}
+h2{
+    font-size: 16px;
+}
+h4{
+    font-size: 13px; 
+}
+h3{
+    font-size: 24px;
+}
+
+#header, #card-one, #card-two, #card-three, #card-four{
+    padding: 2em; 
+}
+#card-one,#card-two,#card-three,#card-four{
+    display: flex; 
+}
+#header{
+    padding-top: 8em;
+    padding-bottom:5em;
+}
+#card-one{
+    background-color: #800960;  
+}
+#card-two{
+    background-color: #9E0761; 
+}
+#card-three{
+    background-color: #C30463; 
+}
+#card-four{
+    background-color: #E80265;
+}
+.right{
+    padding: 2em;
