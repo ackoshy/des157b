@@ -1,0 +1,32 @@
+#map { 
+    height: 100%;
+    width: auto; 
+    padding: 10%;
+
+}
+#map-section {
+    padding-top: 5%;
+}
+
+#header{
+    background-color: #690B5F; 
+    padding: 2em; 
+}
+
+body{
+    font-family: "Playfair Display";
+    color: white; 
+    margin: 0; 
+}
+h1,h2 {
+    margin: 0; 
+    margin-bottom: 1em; 
+}
+
+h1{
+    
+    font-size: 56px; 
+}
+h2{
+    font-size: 16px;
+}
