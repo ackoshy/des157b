@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geocoding Service</title> 
+     <!--/ /-------- Parse Library --------/ /-->
+     <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    </head>
+    <body>
+        <!-- 1. Create a searchbox where the user will provide the text address -->
+        <div id="floating-panel">
+            <input id="address" type="textbox" value="Sydney, NSW" />
+            <input id="submit-btn" type="button" value="Geocode" />
+        </div>
+
+        <div id="map" style="height: 500px;"></div>
+
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1dvpzjG7h6IkilxESUgTusueP4lDE0-I&callback=initMap" async></script>
+        <script defer src="new_map.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>
