@@ -1,0 +1,12 @@
+body{
+    font-family: "Playfair Display";
+    margin: 0; 
+    text-align: center; 
+    background-color: #E80265; 
+}
+form{
+    margin: auto; 
+}
+.label-heading{
+    color: white; 
+}

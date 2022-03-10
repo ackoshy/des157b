@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geocoding Service</title> 
+     <!--/ /-------- Parse Library --------/ /-->
+     <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    </head>
+    <body>
+        <!-- 1. Create a searchbox where the user will provide the text address -->
+        <div id="floating-panel">
+            <input id="address" type="textbox" value="Sydney, NSW" />
+            <input id="submit-btn" type="button" value="Geocode" />
+        </div>
+        <div id="map" style="height: 500px;"></div>
+     <!-- add the link to AOS JS here -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+          <!--Leaflet Library-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+        <!--Leaflet script-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+
+
+
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1dvpzjG7h6IkilxESUgTusueP4lDE0-I&callback=initMap" async></script>
+        <script defer src="new_map.js"></script>
+
+        <section id="map-section">
+            <div data-aos="fade-right" id="map"></div>
+            <div data-aos="fade-left" id="review7">
+            </div>
+            <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+        </section>
+    
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+       
+       
+
+    </body>
+
+
+</html>

@@ -1,0 +1,118 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <!--/ /-------- Google API --------/ /-->
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1dvpzjG7h6IkilxESUgTusueP4lDE0-I&callback=initMap"></script>
+    <!--/ /-------- Normalize CSS --------/ /-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!--/ /-------- Font Awesome --------/ /-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--/ /-------- Google Fonts --------/ /-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo|IBM+Plex+Sans+Condensed:300,600&display=swap" rel="stylesheet">
+    
+    <!--/ /-------- Site Styling --------/ /-->
+    <link href="story.css" rel="stylesheet">
+
+       <!--/ /-------- Parse Library --------/ /-->
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+
+   
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html" class="active">Logo</a>
+        <div id="myLinks">
+          <a href="hotline.html">Hotline</a>
+          <a href="voices.html">Alarms</a>
+          <a href="map.html">Map</a>
+          <a href="story.html">Share Your Story</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <main>
+        <ol class="container">
+
+        </ol>
+
+    </main>
+    <form id="add-friend" class="add-friend-offscreen">
+        <h2>Add a Friend</h2>
+
+        <label for="fname">First Name (Optional)</label>
+        <input type="text" id="fname" name="fname" placeholder="Barb">
+
+        <label for="lname">Last Name (Optional) </label>
+        <input type="text" id="lname" name="lname" placeholder="Spike">
+
+       
+
+        <label for="story">Address</label>
+        <input type="text" id="story" name="story" placeholder="232 El Pejo Way San Jose CA 95119">
+
+
+        <!-- <div class="social-input">
+            <label for="fbook"><i class="fab fa-facebook-square"></i></label>
+            <input type="url" id="fbook" name="facebook" value="https://facebook.com">
+        </div>
+
+        <div class="social-input">
+            <label for="twitter"><i class="fab fa-twitter-square"></i></label>
+            <input type="url" id="twitter" name="twitter" value="https://twitter.com">
+        </div>
+
+        <div class="social-input">
+            <label for="insta"><i class="fab fa-instagram"></i></label>
+            <input type="url" id="insta" name="instagram" value="https://instagram.com">
+        </div>
+
+        <div class="social-input">
+            <label for="linkedin"><i class="fab fa-linkedin"></i></label>
+            <input type="url" id="linkedin" name="linkedin" value="https://linkedin.com">
+        </div> -->
+
+        <input type="submit" value="Add Friend">
+    </form>
+
+    <form id="edit-friend" class="edit-friend-offscreen">
+        <h2>Edit Friend Details</h2>
+
+        <label for="fname-edit">First Name</label>
+        <input type="text" id="fname-edit" name="fname">
+
+        <label for="lname-edit">Last Name</label>
+        <input type="text" id="lname-edit" name="lname">
+
+        <label for="email-edit">Email Address</label>
+        <input type="email" id="email-edit" name="email">
+
+        <label for="story-edit">Story</label>
+        <input type="text" id="story-edit" name="story">
+
+
+        <input type="submit" value="Save Details">
+    </form>
+    <footer>
+        <div class="container">
+            <a href="#" id="newbtn">New <i class="fas fa-user-plus"></i></a>
+        </div>
+    </footer>
+    <script  src="script.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+</body>
+</html>
