@@ -4,8 +4,28 @@
         <title>Geocoding Service</title> 
      <!--/ /-------- Parse Library --------/ /-->
      <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+     <link href="styles.css" rel="stylesheet">
     </head>
     <body>
+
+        <div class="topnav">
+            <a href="index.html" class="active">Home &#10084;</a>
+                <div id="myLinks">
+                  <a href="hotline.html">Hotline</a>
+                  <a href="voices.html">Alarms</a>
+                  <a href="new-map.html">Map</a>
+                  <a href="story.html">Share Your Story</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+        </div>
+
+
+        <section id="header">
+            <h1>Interactive<br> Map.</h1>
+            <h2>Universtiy of California, Davis</h2>
+        </section>
         <!-- 1. Create a searchbox where the user will provide the text address -->
         <div id="floating-panel">
             <input id="address" type="textbox" value="Sydney, NSW" />
@@ -49,6 +69,8 @@
               }
             }
         </script>
+
+
        
        
 

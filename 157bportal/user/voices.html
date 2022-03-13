@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Voice</title>
+</head>
+<body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="index.html" class="active">Home &#10084;</a>
+      <div id="myLinks">
+        <a href="hotline.html">Hotline</a>
+        <a href="voices.html">Alarms</a>
+        <a href="map.html">Map</a>
+        <a href="story.html">Share Your Story</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <section id="header">
+        <h1>Voices &<br> Sounds</h1>
+        <h2>Universtiy of California, Davis</h2>
+    </section>
+    <section style="display: flex; padding: 2%;">
+        <i style="display: left;padding: 5px;color: #9E0761;" class="fa-solid fa-play sound-heading"></i>
+        <h1 style="display: right;" class="sound-heading">Recording 1</h1>
+    </section>
+    <hr>
+    <section style="display: flex; padding: 2%;">
+        <i style="display: left;padding: 5px;color: #9E0761;" class="fa-solid fa-play sound-heading"></i>
+        <h1 style="display: right;" class="sound-heading">Recording 2</h1>
+    </section>
+    <hr>
+    <section style="display: flex; padding: 2%;">
+        <i style="display: left;padding: 5px;color: #9E0761;" class="fa-solid fa-play sound-heading"></i>
+        <h1 style="display: right;" class="sound-heading">Recording 3</h1>
+    </section>
+    <hr>
+    <section style="display: flex; padding: 2%;">
+        <i style="display: left;padding: 5px;color:#9E0761;" class="fa-solid fa-play sound-heading"></i>
+        <h1 style="display: right;" class="sound-heading">Recording 4</h1>
+    </section>
+    <hr>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+</body>
+</html>

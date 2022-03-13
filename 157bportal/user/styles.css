@@ -1,0 +1,114 @@
+#header{
+    background-color: #690B5F; 
+}
+
+body{
+    /* font-family: "Playfair Display"; */
+    font-family: "Georgia"; 
+    color: white; 
+    margin: 0; 
+}
+
+h1,h2,h3,h4 {
+    margin: 0; 
+    margin-bottom: 1em; 
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #690B5F;
+}
+
+h1{
+    font-size: 56px;
+}
+h2{
+    font-size: 16px;
+}
+h4{
+    font-size: 13px; 
+}
+h3{
+    font-size: 24px;
+}
+
+.sound-heading {
+    color: black;
+    font-size: 20px;
+}
+
+#header, #card-one, #card-two, #card-three, #card-four{
+    padding: 2em; 
+}
+#card-one,#card-two,#card-three,#card-four{
+    display: flex; 
+}
+#header{
+    padding-top: 8em;
+    padding-bottom:5em;
+}
+#card-one{
+    background-color: #800960;  
+}
+#card-two{
+    background-color: #9E0761; 
+}
+#card-three{
+    background-color: #C30463; 
+}
+#card-four{
+    background-color: #E80265;
+}
+.right{
+    padding: 2em;
+}
+
+/* NavBar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #690B5F;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background-color: #690B5F;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #690B5F;
+    color: white;
+  }
+
+  .form-center {
+    display:flex;
+    justify-content: center;
+  }
+
+  a {
+      color: white;
+      text-decoration: none;
+  }
